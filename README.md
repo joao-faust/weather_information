@@ -11,15 +11,15 @@ Before you start, you need to install the [PHP](https://www.php.net/) and [MySQL
 
 Follow the steps bellow:
 
-Step 1 - Start the MySQL service or start it from xampp;
-Step 2 - Open your terminal and type mysql -u root -p;
-Step 3 - Type everything that is in the database.sql file;
-Step 4 - Set up the connection file according to your database.
+- Start the MySQL service or start it from xampp;
+- Open your terminal and type mysql -u root -p;
+- Type everything that is in the database.sql file;
+- Set up the connection file according to your database.
 
 ### Start the PHP Server
 
-Step 1 - Type php -S localhost:<PORT> in your terminal or start it from xampp;
-Step 2 - Type localhost:<PORT> in any browser.
+- Type php -S localhost:<PORT> in your terminal or start it from xampp;
+- Type localhost:<PORT> in any browser.
 
 ### Authors
 
