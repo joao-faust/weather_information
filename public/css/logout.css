@@ -1,0 +1,16 @@
+div .logout {
+    float: right;
+    margin-top: 25px;
+    margin-right: 22px;
+    margin-bottom: 18px;
+}
+
+div .logout a {
+    color: #2A7CB4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div .logout a:hover {
+    color: red;
+}

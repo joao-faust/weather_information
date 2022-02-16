@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.snow {
+    background-image: url(../images/slo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nice {
+    background-image: url(../images/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.beach {
+    background-image: url(../images/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.desert {
+    background-image: url(../images/desert.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 740px;
+    background: #F1F1F1;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.center h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #2691d9;
+    color: #2A7CB4;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.center div .container {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.backbtt {
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.backbtt a {
+    color: #2A7CB4;
+    text-decoration: none;
+}
+
+#clearHistory {
+    color: #2A7CB4;
+    text-decoration: none;
+    padding-left: 45px;
+}
+
+#clearHistory:hover {
+    color: red;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-right: 37px;
+    margin-bottom: 50px;
+    height: 400px;
+    overflow: auto;
+}
+
+.container div {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+a {
+    color: black;
+}
+
+.pass {
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.pass:hover {
+    color: #2691d9;
+}
+
+.inform {
+    margin: 30px 0;
+    font-size: 18px !important;
+    color: #6b6262;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+@media (max-width:1350px) {
+    body {
+        background-size: 1350px;
+    }
+}
+
+@media (max-width:400px) {
+    .center {
+        width: 300px;
+    }
+}
+
+@media (max-width:300px) {
+    .center {
+        width: 250px;
+    }
+}
